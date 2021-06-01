@@ -1,0 +1,87 @@
+Pyndex is  a python learning game. It will work like game of index cards.
+
+Pyndex will have engine that will force player through learning material.
+
+Game has a "Truthtable" section in which all the boolean logic possibilities will be presented one by one,
+and the right answer will be shown after user guess input. Input is "truth" or "false". after list is exhausted,
+game will promt for a choise to move on to next section or try "truthtable" again.
+
+Second section or phase is  a "Dictionary" it will show keywords and data types in sequence.
+within sequence words will be random. game could show limited amount of diffferent words each time. when
+word limit is reached game will promt for replay or next episode.
+
+third section is "string formats and escapes". It will show strings or escapes, and ask for proper answer. answer is printed
+after the input. section can be reversed to show description and prompt for a string or escape.
+
+Last section is python "phrase drill" from textbook.
+
+Section can be accessed in any random order and be played multiple times. counter could be included to calculate correct
+answer and maybe show statistics. questions and answer will be from textfiles.
+
+verbs:
+
+guide-print(prompt)
+presented-print
+show-print
+input-input(prompt)
+ask-prompt
+print-prompt
+reverse->
+exhaust-list?
+promt-prompt?
+choose-if,elif,else
+try-?
+randomize-random?
+calculate-?
+replay-?
+limit-?
+access-open?
+count-?
+
+
+
+Nouns:
+
+game -engine
+guide- engine
+player- user
+material-input
+truthtable- sequence
+logic-sequence
+answer-engine
+input-engine
+list-input
+choise-sequence
+section-sequence
+stringformats-sequence
+escapes-sequence
+sequence=
+episode-sequence
+text-input
+book-input
+textfile-input
+description-engine
+order-engine
+counter-engine
+statistic-engine
+
+-map
+	-opening_choise
+	-next_scene
+	-random_scene
+	-next_play
+
+-engine
+	-play
+	-print
+	(-ramdomize
+	-calculate
+	-count)
+	-open_txt?
+	-read_txt?
+
+-sequence
+	-truthtable
+	-string_formats
+	-dictionary
+	-phrase_drill

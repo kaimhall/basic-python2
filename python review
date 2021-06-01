@@ -1,0 +1,55 @@
+comment
+print
+run
+logic
+true
+false
+greater
+less
+equal
+greater or equal
+less or equal
+variable
+f
+{}
+()
++
+-
+=
+*
+/
+""
+''
+strings
+.format
+end=''
+formatter
+\n
+"""
+\t
+\\
+'''
+input()
+argv
+prompt
+input(prompt)
+sys
+import
+open()
+.read()
+.close()
+.truncate()
+.write()
+def
+*args
+.seek
+line_count
++=
+return
+
+(())
+if - makes code conditional (logic)?
+if - if is a funtion giving output?
+if - code breaks
+elif - runs code block for false?
+else - runs code block for undecided 

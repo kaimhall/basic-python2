@@ -1,0 +1,64 @@
+comment - lets you type info #
+print - print out to console
+run - same as use/call. starts program.
+logic - logical operations
+true - condition if criteria is met. returns TRUE value.
+false - condition if criteria not met. returns FALSE value.
+greater - logical operator >. determines criteria.
+less - logical operator <. determines criteria.
+equal - logical operator =. determines criteria.
+greater or equal - logical operator >=. determines criteria.
+less or equal - logical operator <=. determines criteria.
+variable - can be set and used in calc, function, print etc.
+. - dot
+, - comma separates values
+f - variable in string
+{} - calls variable
+() - parenthesis. start and end of string etc.
++ - addition
+- - subtraction
+= - equals
+* - multiply
+/ - divide
+"" - quate starts strings
+'' - half quate starts strings
+strings - text or number or variables inside quates
+.format - formats variables in {} defined way
+end='' - ties together two printouts
+formatter - {brackets} for .format
+\n - nextline
+""" - freeline text
+\t - tab
+\\ - backslash
+''' - freeline text
+input() - asks user input
+argv - argument variable
+prompt - prompts for something
+input(prompt) - prompts for input
+sys - system
+import - imports module
+open() - opens file as file object
+.read() - reads file as file object
+.close() - closes file object
+.truncate() - empties file
+.write() - writes into file
+def - defines function
+*args - defines multiple arguments
+.seek - seeks certain byte mark in file
+line_count - counts line from file
++= - adds number into variable
+return - return variable to be value from function
+.readline -reads one line from text
+
+====================================================
+
+sys.argv - primes argument variables
+main - main function
+if - set logical condition. To-Do when TRUE.
+print_line -prints one line
+.strip() - removes characters from string
+.encode() - encodes txt into raw bytes
+.decode() - decodes txt with unicode.
+errors - parameter for error handling.
+pop(0) -
+sorted -
